@@ -1,0 +1,22 @@
+{
+  "name": "mini-web-game-components",
+  "version": "1.0.0",
+  "description": "Components for the mini-web-game template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Quinten/mini-web-game-components.git"
+  },
+  "keywords": [
+    "mini-web-game"
+  ],
+  "author": "Quinten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quinten/mini-web-game-components/issues"
+  },
+  "homepage": "https://github.com/Quinten/mini-web-game-components#readme"
+}
