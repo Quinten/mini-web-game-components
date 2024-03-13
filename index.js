@@ -4,7 +4,7 @@ import resize from './resize.js';
 import sound from './sound.js';
 import fillrect from './fillrect.js';
 
-export default Object.freeze({
+export.components = Object.freeze({
     data,
     pointer,
     resize,
