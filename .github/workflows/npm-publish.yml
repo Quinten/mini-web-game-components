@@ -37,12 +37,11 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - run: |
-          npm ci
-          npm version patch
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-username@users.noreply.github.com'
-          git push
-          npm publish
+      - run: npm ci
+      - run: npm version patch
+      - run: git config --global user.name 'Quinten'
+      - run: git config --global user.email 'Quinten@users.noreply.github.com'
+      - run: git push
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
