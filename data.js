@@ -1,5 +1,5 @@
 let data = {};
-let lsKey = document.title + ' Data ';
+let lsKey = ((process === undefined) ? 'mwg' : process.env.PROJECT_NAME) + ' Data ';
 
 let preupdate = c => {
     let {id, entity} = c;
