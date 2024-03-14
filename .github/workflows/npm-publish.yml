@@ -38,9 +38,9 @@ jobs:
           node-version: 21
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm version patch
       - run: git config --global user.name 'Quinten'
       - run: git config --global user.email 'Quinten@users.noreply.github.com'
+      - run: npm version patch
       - run: git push
       - run: npm publish
         env:
