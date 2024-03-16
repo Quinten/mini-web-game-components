@@ -2,7 +2,7 @@
   "name": "mini-web-game-components",
   "version": "1.0.5",
   "description": "Components for the mini-web-game template",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "echo \"No build specified\" && exit 0",
     "test": "echo \"No test specified\" && exit 0"
