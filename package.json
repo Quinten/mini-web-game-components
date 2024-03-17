@@ -1,6 +1,6 @@
 {
   "name": "mini-web-game-components",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Components for the mini-web-game template",
   "main": "src/index.js",
   "scripts": {
