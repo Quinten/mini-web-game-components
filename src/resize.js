@@ -27,6 +27,8 @@ let preupdate = c => {
         component.height = component.minHeight / actualRatio;
      }
     component.zoom = zoom;
+    component.originX = (component.width - component.minWidth) / 2;
+    component.originY = (component.height - component.minHeight) / 2;
 };
 
 let flush = c => {
